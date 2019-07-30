@@ -358,6 +358,9 @@ export const couponDetail = (data, callback) => post('coupon.coupondetail', data
 // 用户领取优惠券
 export const getCoupon = (data, callback) => post('coupon.getcoupon', data, callback)
 
+// 用户领取优惠券
+export const marketingGetCoupon = (data, callback) => post('marketing.getcoupon', data, callback)
+
 // 用户已领取的优惠券列表
 export const userCoupon = (data, callback) => post('coupon.usercoupon', data, callback)
 
